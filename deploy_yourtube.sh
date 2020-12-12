@@ -6,17 +6,25 @@ apt-get install -y python3-pip
 
 apt-get install -y ffmpeg=7:4.3.1-4ubuntu1
 
+apt-get install -y curl
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+
 apt-get install -y nodejs
 
-apt-get install -y npm
+npm install -g npm@7
 
 git clone https://github.com/yourtube-server/backend.git
 
-chmod +x backend/deploy.sh
-
 git clone https://github.com/yourtube-server/frontend.git
 
-chmod +x frontend/deploy.sh
+cd backend/
 
+pip3 install -r requirements.txt
 
-./backend/deploy.sh & ./frontend/deploy.sh
+cd ../
+
+cd frontend/
+
+npm install
+
+cd ../
