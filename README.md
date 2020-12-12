@@ -148,7 +148,7 @@ Bookmark this for easy access. Enjoy!
 
 ## Updating 
 
-To update the app, reboot the instance, then repeat the directions for deploying the [backend](#deploying-the-backend) and then [frontend](#deploying-the-frontend).
+To update the app: reboot the instance, then repeat the directions for deploying the [backend](#deploying-the-backend) and then [frontend](#deploying-the-frontend).
 
 ## Migration
 
