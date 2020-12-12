@@ -4,7 +4,7 @@ apt-get install -y python3.9
 
 apt-get install -y python3-pip
 
-apt-get install -y ffmpeg=7:4.3.1-4ubuntu1
+apt-get install -y ffmpeg
 
 apt-get install -y curl
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
