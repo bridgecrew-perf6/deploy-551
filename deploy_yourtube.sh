@@ -1,12 +1,12 @@
 #!/bin/bash
 
-apt-get install python3.9
+apt-get install -y python3.9
 
-apt-get install python3-pip
+apt-get install -y python3-pip
 
-apt-get install ffmpeg=7:4.3.1-4ubuntu1
+apt-get install -y ffmpeg=7:4.3.1-4ubuntu1
 
-apt-get install nodejs
+apt-get install -y nodejs
 
 git clone https://github.com/yourtube-server/backend.git
 
