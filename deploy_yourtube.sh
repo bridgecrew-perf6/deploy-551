@@ -8,6 +8,8 @@ apt-get install -y ffmpeg=7:4.3.1-4ubuntu1
 
 apt-get install -y nodejs
 
+apt-get install -y npm
+
 git clone https://github.com/yourtube-server/backend.git
 
 chmod +x backend/deploy.sh
