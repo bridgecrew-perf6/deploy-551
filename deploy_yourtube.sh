@@ -10,11 +10,11 @@ apt-get install -y nodejs
 
 git clone https://github.com/yourtube-server/backend.git
 
-chmod +x /backend/deploy.sh
+chmod +x backend/deploy.sh
 
 git clone https://github.com/yourtube-server/frontend.git
 
-chmod +x /frontend/deploy.sh
+chmod +x frontend/deploy.sh
 
 
 ./backend/deploy.sh & ./frontend/deploy.sh
