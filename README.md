@@ -126,7 +126,13 @@ sudo git pull
 Then, enter this command:
 
 ```
-sudo nohup npm run build && npm run start &
+sudo npm run build 
+```
+
+Finally,
+
+```
+sudo nohup npm run start &
 ```
 
 ### Visit the app
