@@ -99,27 +99,22 @@ sudo git pull
 Then, enter the next command using the Private IP you copied:
 
 ```
-sudo flask run -h <your private ip> 
+sudo nohup flask run -h <your private ip> &
 ```
 Using the example screen shot, the command would be
 
 
 ```
-sudo flask run -h 172.26.12.145 
+sudo nohup flask run -h 172.26.12.145 &
 ```
-
-You should see the message 'Running on http://\<your private ip\>:5000'
 
 ### Deploying the Frontend
 
-Back in the console click on the 'Connect' tab, and open a separate shell by clicking on 'Connect using SSH' again:
 
-![](images/image008.png)
-
-In the new shell, enter the following:
+In the shell, enter the following:
 
 ```
-cd frontend/
+cd ../frontend/
 ```
 
 Then run this command:
@@ -131,10 +126,8 @@ sudo git pull
 Then, enter this command:
 
 ```
-sudo npm run dev
+sudo nohup npm run build && npm run start &
 ```
-
-After a few seconds, you should see the message 'event - compiled successfully'
 
 ### Visit the app
 
